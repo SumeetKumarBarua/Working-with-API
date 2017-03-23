@@ -23,7 +23,7 @@ That will give the array something like this:
 To get the list of categories:
 <pre> GET https://factsbox.herokuapp.com/api/FactAPI/distinctCategory </pre>
 That will give an array of distinct categories like:
-<pre>  ["BIOLOGY","CHEMISTRY","MATHS","PHYSICS","SCIENTIST","WWII"] </pre> 
+<pre>["BIOLOGY","CHEMISTRY","MATHS","PHYSICS","SCIENTIST","WWII"] </pre> 
 
 
 To get a list of facts based on Category:
