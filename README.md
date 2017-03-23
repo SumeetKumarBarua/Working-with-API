@@ -7,7 +7,7 @@ To Learn more about the project <a href="https://github.com/SumeetKumarBarua/Fac
 <br>
 <h3><b>FactsBox API</b></h3>
 
-I wouldn't feel my app [FactsBox] to be complete if it doesn't have an API for you.
+I wouldn't feel my app to be complete if it doesn't have an API for you.
 You can just request the JSON feed for all facts or some particular facts of your choice.
 <br>
 <br>
