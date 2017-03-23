@@ -11,25 +11,23 @@ I wouldn't feel my app [FactsBox] to be complete if it doesn't have an API for y
 You can just request the JSON feed for all facts or some particular facts of your choice.
 
 To get all the facts:
-<pre>      GET http://quotes.stormconsultancy.co.uk/quotes.json</pre>
-
-  https://factsbox.herokuapp.com/api/FactAPI/allFacts
-	 That will give the array something like this:
-	 **************
+<pre> GET https://factsbox.herokuapp.com/api/FactAPI/allFacts </pre>
+That will give the array something like this: 
+<pre>***** </pre> 
 
 To get a single fact based on ID:
-  https://factsbox.herokuapp.com/api/FactAPI/factId/1001
-	That will give the array something like this:
-	 ***********	
+<pre> GET https://factsbox.herokuapp.com/api/FactAPI/factId/1001 </pre>
+That will give the array something like this: 
+<pre>***** </pre> 		
 
 To get the list of categories:
-  https://factsbox.herokuapp.com/api/FactAPI/distinctCategory
- That will give an array of distinct categories like:
- ["BIOLOGY","CHEMISTRY","MATHS","PHYSICS","SCIENTIST","WWII"]
- 
+<pre> GET https://factsbox.herokuapp.com/api/FactAPI/distinctCategory </pre>
+That will give an array of distinct categories like:
+<pre>  ["BIOLOGY","CHEMISTRY","MATHS","PHYSICS","SCIENTIST","WWII"] </pre> 
+
 
 To get a list of facts based on Category:
-  https://factsbox.herokuapp.com/api/FactAPI/category/PHYSICS
-  	That will give the array something like this:
-	 ***********
+<pre>GET https://factsbox.herokuapp.com/api/FactAPI/category/PHYSICS</pre>
+That will give the array something like this:
+<pre>********</pre>
 
